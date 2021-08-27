@@ -1,0 +1,41 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Refrigeração Industrial</title>
+
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div id="content">
+
+            <div id="botoes">
+                <input id="inputo" type="text" placeholder="Digite um codiugo de cor">
+                <button onclick="trocarCor(document.getElementById('inputo').value)">Trocar cor</button>
+            </div>
+
+            <div id="pagina" style="background: white;">
+                <h1 id="titulo">Refrigteração Industrial</h1>
+                <h2 id="autor">André Felipe</h2>
+                <h2 id="autorEmail">andrefelipebendeoliveira@gmail.com</h2>
+
+                <h2 class="subtitulo">Introdução</h2>
+                    <p class="paragrafo">lol</p>
+                <h2 class="subtitulo">Desenvolvimento</h2>
+                    <p class="paragrafo">Llol2</p>
+                <h2 class="subtitulo">Conclusão</h2>
+                    <p class="paragrafo">KFJKJSJFN</p>
+
+                <footer id="rodape">Rodapé</footer>
+            </div>
+
+        </div>
+
+        <script>
+            function trocarCor(codigo){
+                let elemento = document.getElementById('content')
+                elemento.style.background = codigo
+            }
+        </script>
+    </body>
+</html>

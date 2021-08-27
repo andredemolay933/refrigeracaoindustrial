@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#content{
+    width: 100%;
+    height: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagina{
+    width: 60%;
+    height: 90%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+#titulo{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+#autor{
+    width: 100%;
+    text-align: right;
+}
+#autorEmail{
+    width: 100%;
+    text-align: right;
+}
+
+.subtitulo{
+    width: 100%;
+    text-align: left;
+}
+
+.paragrafo{
+    width: 100%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#rodape{
+    width: 100%;
+    text-align: center;
+}
+
+#botoes{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
